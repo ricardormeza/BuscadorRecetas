@@ -11,7 +11,7 @@ const ModalBebida = () => {
             
             if(receta[`strIngredient${i}`]){
                 ingredientes.push(
-                    <li>{receta[`strIngredient${i}`]} {[`strMeasure${i}`]}</li>
+                    <li>{receta[`strIngredient${i}`]} {[`Measure${i}`]}</li>
                 )
             }
         }
